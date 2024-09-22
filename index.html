@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quotes App</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    
+    <div class="container-lg py-5 text-center text-white" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
+        <h1 class="mb-5 pt-5">Quote of the Day</h1>
+        <p class="mb-5">Press the button below to recieve a random quote!</p>
+        <button onclick="displayQuotes()" class="btn btn-primary py-4 px-5 fs-5 mb-3">New Quote</button>
+        <p class="pt-5 fs-3" id="quote"></p>
+        <p class="pt-3 fs-3" id="auther"></p>
+    </div>
+
+
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="js/script.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
